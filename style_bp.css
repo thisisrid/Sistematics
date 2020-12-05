@@ -1,0 +1,113 @@
+
+/*=============================================
+MIni Menu
+==========================================*/
+body{
+    /* background-color: aqua; */
+}
+#top_head_area {
+    background-color: #ba2e1f;
+ 
+}
+.nav-link{
+    font-size: 14px;
+    color: #ffffff !important;
+}
+
+.mini_menu ul li {
+    position: relative;
+ }
+ .mini_menu ul li:nth-child(1):after {
+     background: #ffffff;
+     content:"";
+     height: 12px;
+     width: 2px;
+     top: 13px;
+     right: 0px;
+     left: 62px;
+     position: absolute;
+     /* margin-right: 10px; */
+  }
+  .mini_menu ul li:nth-child(2):after {
+    background: #ffffff;
+    content:"";
+    height: 12px;
+    width: 2px;
+    top: 13px;
+    right: 0px;
+    left: 48px;
+    position: absolute;
+    /* margin-right: 10px; */
+ }
+
+ .mini_menu ul li:nth-child(3):after {
+    background: #ffffff;
+    content:"";
+    height: 12px;
+    width: 2px;
+    top: 13px;
+    right: 0px;
+    left: 78px;
+    position: absolute;
+    /* margin-right: 10px; */
+ }
+ .nav-link:hover {
+    color: rgb(231, 219, 219) !important;
+}
+
+.search_area {
+    background-color: #ffffff;
+    margin-top: 7px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.search_area [type="text"]{
+    border: none;
+    margin-left: 6px;
+    width: 80%;
+    
+}
+
+.search_area img {    
+    width: 10%;
+    margin-bottom: 3px;
+    margin-left: 5px;
+}
+.search-bd {
+    margin-top: 2px;
+}
+
+/*========================================================
+main header
+=================================================*/
+.nav-brand{
+    margin-top: 43px !important;
+}
+#socialbar {
+width: 30px;
+
+height: 30px;
+border-radius: 50%;
+margin-right: 5px;
+margin-top: 62px;
+    background-color: #333333 !important;
+    transition: .5s;
+}
+#socialbar:hover {
+    background-color: #ee802f !important;
+}
+#socialbar img {
+ align-items: center;
+    padding-bottom: 10px;
+    padding-left: .8px ;
+}
+#socialbar i {
+    font-size: 15px ;
+    text-align: center;
+    padding-bottom: 5px;
+    padding-left: 1.5px ;
+} 
+
